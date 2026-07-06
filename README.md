@@ -7,7 +7,7 @@ Data can be read from the FIFO at each clock cycle when the read enable signal i
 **Verification Plan and architucture Synchronus -FIFO**
 ______________________________________________________________________________________________________________________________________________
 
-**FIFO Specification**
+**FIFO Specification for Verification**
 ______________________
 **a)data is written into a FIFO When:**
 i) wr_en = 1
@@ -109,3 +109,29 @@ Covarage
 assertation
 
 **TEST_PLAN**
+**Basic functional Test **
+reset Test
+single write
+single read
+multiple write 
+multiple read
+stimulus write/read
+full condition 
+overflow
+empty
+underflow
+pointer wrap around
+
+
+
+
+
+
+
+
+
+
+
+
+
+
