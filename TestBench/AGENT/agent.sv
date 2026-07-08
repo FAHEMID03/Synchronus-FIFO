@@ -1,15 +1,9 @@
-//Each Agent contains
+class fifo_agent extends uvm_agent;
 
-Agent
+   fifo_driver driver;
 
-↓
+   fifo_monitor monitor;
 
-Sequencer
+   fifo_sequencer seqr;
 
-↓
-
-Driver
-
-↓
-
-Monitor
+endclass
