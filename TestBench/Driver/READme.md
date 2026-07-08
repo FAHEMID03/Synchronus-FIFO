@@ -1,0 +1,5 @@
+Receives transaction
+
+↓
+
+Drive DUT
